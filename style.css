@@ -1,0 +1,40 @@
+body {
+    background-image: url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/322/desktop-computer_1f5a5-fe0f.png"), url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/322/desktop-computer_1f5a5-fe0f.png");
+    background-color: #cccccc;
+    padding: 100px 1000px 1000px 1000px;
+  }
+ 
+a:link {
+    color: red;
+  }
+  
+
+  a {
+    background-color: yellow;
+    padding: 100px 100px 10px 100px;
+    width:10%; 
+	height:10%; 
+	margin:auto; 
+	position:absolute;
+    
+  }
+  
+  a:visited {
+    background-color: cyan;
+  }
+  
+  a:hover {
+    background-color: lightgreen;
+  }
+  
+  a:active {
+    background-color: hotpink;
+    color: hotpink;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
